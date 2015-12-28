@@ -1,0 +1,21 @@
+[logger]
+debugEnabled = 0
+logDir = @LOG_DIR@
+logName = kaltura_schedule.log
+errorLogName = kaltura_schedule_error.log
+
+[client]
+serviceUrl = @SERVICE_URL@
+partnerId = @PARTNER_ID@
+secret = @ADMIN_SECRET@
+timeout = 90
+verifySSL = false
+
+[server]
+version = v1.0
+
+[bin]
+ffmpegPath = @BIN_DIR@
+
+[liveStream]
+defaultConversionProfileId = @CONVERSION_PROFILE_ID@
